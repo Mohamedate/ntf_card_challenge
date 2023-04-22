@@ -9,10 +9,8 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 
 ### Links
 
-- Solution URL:[solution Url](https://github.com/Mohamedate/ntf_card_challenge)
-- Live Site URL: [https://your-live-site-url.com](https://mohamedate.github.io/ntf_card_challenge/)
-
-## My process
+- Solution URL:[Click Here](https://github.com/Mohamedate/ntf_card_challenge)
+- Live Site URL: [Click Here](https://mohamedate.github.io/ntf_card_challenge/)
 
 ### Built with
 
@@ -25,6 +23,6 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
+- My Website - [Mohamed Atef (^__^)](https://mohamedate.github.io/Mohamed_Atef/)
 - Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
 
