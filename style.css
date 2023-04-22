@@ -1,0 +1,146 @@
+* { 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* primary color */
+:root { 
+    --soft-blue: hsl(215, 51%, 70%);
+    --cyan: hsl(178, 100%, 50%);
+    --very-dark-blue-main: hsl(217, 54%, 11%);
+    --very-dark-blue-card: hsl(216, 50%, 16%);
+}
+a { 
+    text-decoration: none;
+}
+body { 
+    font-family: 'Outfit', sans-serif;
+    background-color: var(--very-dark-blue-main);
+    height: 100vh;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    color: white;
+}
+
+img { 
+    width: 100%;
+}
+.card { 
+    background: var(--very-dark-blue-card);
+    max-width: 280px;
+    padding: 1.3rem;
+    padding-bottom: 1.5rem;
+    border-radius: .75rem;
+    box-shadow: 0px 10px 16px 16px hsl(217deg 57.63% 8.79%);
+}
+.card .image { 
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+}
+.card .image .eye { 
+    position: absolute;
+    width: 50px;
+    left: 0;
+    top: 0;
+    transform: scale(0);
+    width: 100%;
+    height: 99%;
+    border-radius: .75rem;
+    background-color: hsl(178deg 100% 50% / 48%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .3s all ease-in-out;
+}
+
+.card .image:hover .eye { 
+    transform: scale(1);
+}
+.card .image .eye img { 
+    width: 4rem;
+
+}
+
+.card img { 
+    border-radius: .5rem;
+}
+
+h1 { 
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-top: 1rem;
+    transition: .3s all ease-in-out;
+    cursor: pointer;
+}
+h1:hover { 
+    color: var(--cyan);
+}
+.descrip { 
+    color: var(--soft-blue);
+    font-size: .8rem;
+    font-weight: 300;
+    margin: .7rem 0 1rem;
+}
+.days { 
+    display: flex;
+    justify-content: space-between;
+}
+.days div { 
+    display: flex;
+    align-items: center;
+    font-size: .8rem;
+}
+.price { 
+    color: var(--cyan);
+    font-weight: 600;
+}
+.price img { 
+    width: .7rem;
+    margin-right: 5px;
+}
+.days { 
+    color: var(--soft-blue);
+    margin-bottom: 1rem;
+}
+.day img { 
+    width: 1rem;
+    margin-right: 5px;
+}
+.creator { 
+    display: flex;
+    align-items: center;
+    border-top: 1px solid var(--soft-blue);
+    padding-top: 1rem;
+    color: var(--soft-blue);
+    font-size: .8rem;
+}
+.creator img { 
+    width: 2rem;
+    border: 1px solid wheat;
+    border-radius: 50%;
+    margin-right: 1rem;
+}
+.creator span { 
+    color: white;
+    margin-left: 5px;
+    transition: .2s all ease-in-out;
+    cursor: pointer;
+}
+.creator span:hover { 
+    color: var(--cyan);
+}
+.footer { 
+    position: absolute;
+    bottom: 2rem;
+    text-align: center;
+    width: 100%;
+    color: white;
+}
+.footer a { 
+    color: white;
+}
+.footer .me { 
+    color: var(--cyan);
+}
